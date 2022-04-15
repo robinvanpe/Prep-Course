@@ -50,7 +50,7 @@ function divide(x, y) {
   // Tu código:
   console.log(x % y)
 }
-divide(12, 3)
+divide(15, 3)
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
