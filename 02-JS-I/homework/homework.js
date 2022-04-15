@@ -32,30 +32,25 @@ function devolverString(str) {
 }
 
 function suma(x, y) {
-  // "x" e "y" son números
-  // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:
-  
+  console.log(x + y);
 }
-
+suma (9, 12)
 function resta(x, y) {
-  // Resta "y" de "x" y devuelve el valor
-  // Tu código:
-  
+  console.log(x - y);
 }
-
+resta (12, 9)
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  console.log(x * y);
 }
-
+multiplica( 9, 12)
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  console.log(x % y)
 }
-
+divide(12, 3)
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
