@@ -85,7 +85,10 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var mayorQueCincuenta = 50
-  mayorQueCincuenta < 40
+  if( mayorQueCincuenta < 60){
+    console.log('true')
+    } else if (mayorQueCincuenta > 100){
+    console.log('false')
 }
 
 function obtenerResto(x, y) {
