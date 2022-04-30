@@ -186,11 +186,11 @@ function doWhile(numero) {
   //Usar el bucle do ... while.
   var x = numero
   var p = 0
-  	do 
-      p = p + 1;
-      x = x + 1;
-     While (p < 8);
-  Return x;
+  	do{ 
+      p = (p + 1)
+      x = (x + 1)
+    } while (p < 8)
+     return x
 }
 
 
